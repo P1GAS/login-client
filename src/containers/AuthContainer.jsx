@@ -41,6 +41,7 @@ const AuthContainer = ({
 
       userGot(user);
       accessTokenGot(accessToken);
+      navigate("/people");
     } catch (error) {
       toast.error(error?.response?.data || "Что-то пошло не так");
     }
