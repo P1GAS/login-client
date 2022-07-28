@@ -1,0 +1,16 @@
+@import "app.css";
+@import "auth.css";
+@import "user.css";
+@import "components.css";
+@import "header.css";
+
+.auth-form,
+.current-user-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-form > *,
+.current-user-form > * {
+  margin: 10px 0;
+}

@@ -1,0 +1,18 @@
+.user-list-page-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.user-list-item-container {
+  margin: 20px;
+}
+
+.current-user-card {
+  margin-top: 20px;
+}
+
+.users-list-item-card {
+  width: 240px;
+}

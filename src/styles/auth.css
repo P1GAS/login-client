@@ -1,0 +1,12 @@
+.auth-container {
+  padding-top: 20px;
+  align-items: center;
+}
+
+.auth-card {
+  max-width: 500px;
+}
+
+.auth-login-card {
+  margin-bottom: 20px;
+}
